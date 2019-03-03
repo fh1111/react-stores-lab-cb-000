@@ -20,6 +20,18 @@ class App extends React.Component {
     // Your implementation here.
     this.removeListener();
   }
+
+  handleIncrementClick (ev) {
+    ev.preventDefault()
+    actions.increment()
+  }
+  handleDecrementClick (ev) {
+    ev.preventDefault()
+    actions.decrement()
+  }
+
+
+
   render () {
     return (
       <div className='app'>
