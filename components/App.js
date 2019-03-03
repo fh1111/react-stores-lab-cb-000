@@ -5,6 +5,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       // Your implementation here.
+      counter: counterStore.getState()
     };
   }
   componentDidMount () {
