@@ -18,6 +18,7 @@ class App extends React.Component {
   }
   componentWillUnmount () {
     // Your implementation here.
+    this.removeListener();
   }
   render () {
     return (
