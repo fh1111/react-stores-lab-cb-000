@@ -7,6 +7,8 @@ class App extends React.Component {
       // Your implementation here.
       counter: counterStore.getState()
     };
+    this.handleIncrementClick = this.handleIncrementClick.bind(this);
+    this.handleDecrementClick = this.handleDecrementClick.bind(this);
   }
   componentDidMount () {
     // Your implementation here.
