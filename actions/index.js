@@ -1,3 +1,5 @@
+import counterStore from '../stores/counterStore';
+
 // Your implementation here.
 // Hint: We need two actions!
 
