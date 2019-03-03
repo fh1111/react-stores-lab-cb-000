@@ -35,12 +35,13 @@ class App extends React.Component {
   render () {
     return (
       <div className='app'>
-        <h1 className='counter'></h1>
+        <h1 className='counter'>{this.state.counter}</h1>
         <div className='actions'>
-          <button className='decrement'>
+          <button className='decrement' onClick={this.handleDecrementClick}>
             -
           </button>
-          <button className='increment'>
+          <button className='increment' onClick={this.handleIncrementClick}>
+
             +
           </button>
         </div>
